@@ -1,6 +1,6 @@
 /* appling google font over the website  */
 body{
-    font-family: Georgia, sans-serif;
+    font-family: "Century Schoolbook", sans-serif;
     font-weight: 500;
 }
 /* styling menu icon */
@@ -8,7 +8,7 @@ body{
     border: none;
     background-color: maroon;
     font-size: 1.5rem;
-    color: mediumblue;
+    color: #006400;
 }
 /* styling navbar links  */
 .navbar-nav a{
@@ -44,8 +44,8 @@ body{
 }
 /* styling home section starts */
 .home{
-    background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
     padding: 30px 0px 10px 0px;
+    background: midnightblue linear-gradient(33deg, rgba(242, 242, 255, 1) 0%, rgba(235, 249, 255, 1) 100%);
 }
 .home h2{
     font-size: 3rem;
@@ -95,10 +95,10 @@ body{
 }
 /* adding animation to home section image  */
 .home img{
-    animation: floatimg 4s ease-in-out infinite;
+    animation: floating 4s ease-in-out infinite;
 }
 
-@keyframes floatimg {
+@keyframes floating {
     0%{
         transform: translateX(0);
     }
@@ -177,16 +177,16 @@ body{
     font-weight: 600;
 }
 .html-progress{
-    color: #fca61f;
+    color: rebeccapurple;
 }
 .javascript-progress{
-    color: #6f34fe;
+    color: brown;
 }
 .php-progress{
-    color: #20c997;
+    color: #1a5544;
 }
 .reactjs-progress{
-    color: #3f396d;
+    color: #8b0027;
 }
 .text{
     font-size: 1.2rem;
@@ -211,7 +211,7 @@ body{
   margin: 0 25px;
 }
 #myBtnContainer button:hover{
-    color: #fca61f;
+    color: #593502;
 }
 
 #myBtnContainer button:focus{
@@ -235,52 +235,52 @@ body{
 }
 .testimonial i{
     font-size: 2.9rem;
-    color: #fca61f;
+    color: #32271a;
     
 }
 .testimonial .nextprev-btn{
     border: none;
-    background-color: darkslategrey;
+    background-color: #024545;
 }
 .prev:hover,.prev-btn:hover{
-    color:#6f34fe;
+    color: #2c0391;
     transform: translateX(-10px);
     transition-duration: 1s;
 }
 .next:hover,.next-btn:hover{
-    color:#6f34fe;
+    color: #411e97;
     transform: translateX(10px);
     transition-duration: 1s;
 }
 
 /* blog section starts */
 .blog{
-    background-color: salmon;
+    background-color: #2c0391;
 }
 .blog .blogpost .card{
     border: none;
     border-radius: 5%;
 }
 .nav-bg{
-    background-color: #fff;
+    background-color: #006fff;
 }
 
 .blog .blogpost small{
-    color: #6f34fe;
+    color: #1c0950;
     font-size: 1.1rem;
 }
 .blog .blogpost h4,.blogpost a{
-    color: #3f396d;
+    color: #1b0c91;
     font-weight: 700;
     margin-top: 1rem;
     text-decoration: none;
 }
 .blogpost a:hover{
-    color: #fca61f;
+    color: #7c6338;
 }
 .blog .blogpost .read-more-btn{
     text-decoration: none;
-    color: #fca61f;
+    color: #411e97;
     font-size: 1.1rem;
 }
 .blog .blogpost .read-more-btn:hover{
@@ -291,12 +291,12 @@ body{
     margin-left: 94%;
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: wheat;
     font-size: 2rem;
     margin-top: -3%;
 }
 .btn-c i{
-    color: #fca61f;
+    color: #32271a;
 }
 .modal-body .content span{
     font-size: 1rem;
@@ -311,7 +311,7 @@ body{
 }
 .contact-details i{
     font-size: 1.5rem;
-    color: #fca61f;
+    color: #006400;
 }
 .contact-details p{
     font-size: 1.2rem;
@@ -328,46 +328,46 @@ body{
 
 /* footer section starts */
 footer{
-    background-color: #211e39;
+    background-color: #024545;
 }
 
 footer .link-group a{
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
-    color: #6c757d;
+    color: #7c6338;
     font-size: 1.1rem;
     margin-top: 1rem;
 }
 footer .link-group a:hover{
-    color: #fca61f;
+    color: #8b0027;
 }
 .social-links button{
     border: none;
     margin-right: 1rem;
     font-size: 1.2rem;
-    background-color: honeydew;
+    background-color: #698f69;
     padding: 14px 15px 10px 15px;
 }
 .social-links .dribble{
-    color: #f33a7e;
+    color: #451527;
 }
 .social-links button:hover{
-    color: #fff;
+    color: wheat;
     transform: translateY(-20px);
     transition-duration: 1s;
 }
 .social-links .dribble:hover{
-    background-color: #f33a7e;
+    background-color: #e63a78;
 }
 .social-links .whatsapp{
-    color: #25D366;
+    color: #0faa49;
 }
 .social-links .whatsapp:hover{
-    background-color: #25D366;
+    background-color: #03772d;
 }
 .social-links .behance{
-    color: #255afc;
+    color: #19368c;
 }
 .social-links .behance:hover{
     background-color: #255afc;
@@ -380,7 +380,7 @@ footer .link-group a:hover{
     right: 40px;
     display: none;
     font-size: 1.4rem;
-    background-color: #fca61f;
+    background-color: #451527;
     color: #fff;
     animation: pulse 3s infinite;
 }
